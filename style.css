@@ -1,0 +1,81 @@
+/*
+Theme Name: Lawyer
+Author: Marko Todorovic
+Description: Website for Lawyer's
+Tags: Responsive,bootstrap 4,lawyer
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:Lawyer
+*/
+.logged-in header{
+    margin-top:32px;
+}
+.error-page h1{
+    font-size:10rem;
+    font-weight:bold;
+}
+.error-page p{
+    font-size:4rem;
+    line-height:4.5rem;
+    font-weight:500;
+    margin-bottom:20px;
+}
+@media (min-width: 768px) {
+    .error-page{
+        padding:5rem 0 !important;
+    }
+    .error-page h1{
+        font-size:15rem;
+    }
+    .error-page p{
+        font-size:4rem;
+        line-height:4.5rem;
+        font-weight:500;
+        margin-bottom:50px;
+    }
+
+}
+@media (min-width: 1200px){
+    .error-page{
+        padding:14rem 0 !important;
+    }
+}
+
+.widget ul{
+    padding-left: 0;
+    list-style: none;
+}
+.widget ul li a{
+    display: block;
+    font-size:1.8rem;
+    font-weight:500;
+    color:#000;
+    text-decoration:none;
+    margin-bottom: 10px;
+    transition:0.3s linear;
+}
+.widget ul a:hover{
+    padding-left: 10px;
+}
+.widget .widget-title {
+    border-bottom:1px solid #444;
+    padding-bottom: 10px;
+    color: #0056b3;
+}
+.wp-block-search__button{
+    background-color:#0467d0 ;
+    color:#fff;
+}
+.widget .service-item span{
+    color: #000;
+}
+.widget .service-item a{
+    text-decoration: none;
+}
+.team-members{
+    padding: 64px 0 30px;   
+}
